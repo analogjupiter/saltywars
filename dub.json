@@ -1,0 +1,15 @@
+{
+  "name": "saltywars",
+  "description": "Game",
+
+  "copyright": "Copyright © 2022  Elias Batek",
+  "license": "OSL-3.0",
+
+  "authors": [
+    "Elias Batek"
+  ],
+
+  "subPackages": [
+    "./extensions/Core"
+  ]
+}

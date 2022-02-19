@@ -1,0 +1,11 @@
+# D
+.dub
+dub.selections.json
+
+# PHP
+/vendor
+/composer.lock
+
+# User extensions
+/extensions/*
+!/extensions/Core

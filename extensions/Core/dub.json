@@ -1,0 +1,8 @@
+{
+  "name": "core",
+  "targetPath": "bin",
+  "targetType": "dynamicLibrary",
+  "dependencies": {
+    "vibe-d:http": "~>0.9.4"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "saltywars/launcher",
+  "license": "OSL-3.0",
+  "autoload": {
+    "psr-4": {
+      "SaltyWars\\Launcher\\": "./launcher/lib"
+    }
+  },
+  "require": {
+    "ext-ffi": "*"
+  }
+}
