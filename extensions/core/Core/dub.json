@@ -1,5 +1,6 @@
 {
   "name": "core",
+  "license": "MPL-2.0",
   "targetPath": "bin",
   "targetType": "dynamicLibrary",
   "dependencies": {

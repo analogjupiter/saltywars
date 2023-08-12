@@ -1,0 +1,24 @@
+version: '3.0'
+services:
+
+  database:
+    image: docker.io/mariadb:10.11
+    restart: always
+    environment:
+      - MARIADB_AUTO_UPGRADE=1
+    env_file:
+      - ./.env
+    volumes:
+      - ./_vol/database:/var/lib/mysql
+
+  game:
+    build: ./server
+    environment:
+      - SALTYWARS_XT_DIR=/saltywars/extensions
+    env_file:
+      - ./.env
+    volumes:
+      - ./_vol/logs:/saltywars/logs:rw
+      - ./extensions/core:/saltywars/extensions/core:ro
+      - ./extensions/base:/saltywars/extensions/base:ro
+      - ./extensions/addon:/saltywars/extensions/addon:ro

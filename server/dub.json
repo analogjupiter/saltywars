@@ -1,0 +1,15 @@
+{
+	"name": "saltywars",
+    "description": "Game server and extension host",
+    
+    "copyright": "Copyright © 2023 Elias Batek",
+    "license": "BSL-1.0",
+
+    "targetPath": "bin",
+    "targetName": "saltywars-srv",
+    "targetType": "executable",
+
+    "dependencies": {
+        "asdf": "~>0.7"
+    }
+}
