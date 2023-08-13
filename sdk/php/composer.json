@@ -1,0 +1,17 @@
+{
+    "name": "saltywars/sdk",
+    "description": "saltywars extension SDK",
+    "type": "library",
+    "license": "BSL-1.0",
+    "authors": [{
+        "name": "Elias Batek"
+    }],
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "SaltyWars\\Sdk\\": "src/"
+        }
+    }
+}
